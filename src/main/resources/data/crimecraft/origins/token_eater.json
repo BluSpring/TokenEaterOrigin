@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "crimecraft:got_to_go",
+        "crimecraft:potion_pooper",
+
+        "crimecraft:soulbound_compass",
+
+        "crimecraft:less_health"
+    ],
+    "icon": {
+        "item": "crimecraft:doubloon"
+    },
+    "order": 0,
+    "impact": 2,
+    "unchoosable": true
+}

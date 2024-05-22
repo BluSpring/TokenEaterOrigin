@@ -1,0 +1,34 @@
+{
+    "schemaVersion": 1,
+    "id": "tokeneaterorigin",
+    "version": "${version}",
+    "name": "TokenEaterOrigin",
+    "description": "The Token Eater origin for Crimecraft S4.",
+    "authors": [
+        "BluSpring"
+    ],
+    "contact": {
+        "repo": "https://github.com/BluSpring/TokenEaterOrigin"
+    },
+    "license": "MIT",
+    "icon": "assets/tokeneaterorigin/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "xyz.bluspring.tokeneaterorigin.client.TokenEaterOriginClient"
+        ],
+        "main": [
+            "xyz.bluspring.tokeneaterorigin.TokenEaterOrigin"
+        ]
+    },
+    "mixins": [
+        "tokeneaterorigin.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric-api": "*",
+        "minecraft": "${minecraft_version}",
+        "fabric-language-kotlin": ">=1.10.20+kotlin.1.9.24",
+        "crimeutils4": ">=1.0.0"
+    }
+}

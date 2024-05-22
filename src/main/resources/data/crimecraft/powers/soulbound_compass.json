@@ -1,0 +1,15 @@
+{
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "crimecraft:soulbound_compass",
+        "tag": {
+            "Enchantments": [
+                {
+                    "id": "minecraft:vanishing_curse",
+                    "lvl": 1
+                }
+            ]
+        }
+    },
+    "recurrent": true
+}
