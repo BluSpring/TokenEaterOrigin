@@ -31,7 +31,7 @@
             {
                 "type": "origins:status_effect",
                 "effect": "crimecraft:got_to_go",
-                "min_amplifier": 1,
+                "min_amplifier": 0,
                 "min_duration": -15000
             },
             {
